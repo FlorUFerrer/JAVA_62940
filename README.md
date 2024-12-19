@@ -1,8 +1,5 @@
-# JAVA_62940
-CoderHouse curso java
 
-
-# JAVA_62940 - Proyecto Final CoderHouse Curso de Java
+# JAVA_62940 - Proyecto CoderHouse Curso de Java
 
 Este proyecto es una aplicación desarrollada en Java como parte del curso de Java en CoderHouse. La aplicación utiliza una base de datos local para gestionar una tienda llamada `tienda_coder`, y permite realizar operaciones CRUD en categorías, productos y usuarios.
 
@@ -10,13 +7,9 @@ Este proyecto es una aplicación desarrollada en Java como parte del curso de Ja
 
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
-- [Configuración](#configuración)
-- [Uso](#uso)
-- [Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
-- [Datos de Ejemplo](#datos-de-ejemplo)
-- [Características](#características)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- [Estructura de la Base de Datos](#Base-de-datos)
+- [Rutas Disponibles](#Rutas-disponibles)
+
 
 ---
 
