@@ -1,4 +1,4 @@
-package com.example.tienda_ch.database;
+package com.coderhouse.tienda_ch.database;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

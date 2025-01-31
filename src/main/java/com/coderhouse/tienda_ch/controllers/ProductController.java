@@ -1,8 +1,9 @@
-package com.example.tienda_ch.controllers;
+package com.coderhouse.tienda_ch.controllers;
 
 
-import com.example.tienda_ch.database.Product;
-import com.example.tienda_ch.database.ProductRepository;
+import com.coderhouse.tienda_ch.database.Product;
+import com.coderhouse.tienda_ch.database.ProductRepository;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/productos")
+@Tag(name="Productos", description = "Endpoint para productos")
 public class ProductController {
 
     @Autowired

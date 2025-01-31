@@ -59,12 +59,11 @@ Insertar algunos datos en la base de datos
     ('Pizza Cuatro Quesos', 900.00, 1),
     ('Empanada de Carne', 200.00, 2),
     ('Empanada de Jamón y Queso', 250.00, 2);
-    
-    INSERT INTO usuarios (username, password, email)
-    VALUES
-    ('facundo', 'clave123', 'facundo@correo.com'),
-    ('martina', 'secreto456', 'martina@correo.com');
 
+    INSERT INTO usuarios (username, password, email, created_at)
+    VALUES
+    ('facundo', 'clave123', 'facundo@correo.com', NOW()),
+    ('martina', 'secreto456', 'martina@correo.com', NOW());      
 
 ## Rutas disponibles
 

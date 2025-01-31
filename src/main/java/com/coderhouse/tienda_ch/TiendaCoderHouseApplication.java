@@ -1,4 +1,4 @@
-package com.example.tienda_ch;
+package com.coderhouse.tienda_ch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
