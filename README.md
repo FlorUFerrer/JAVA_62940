@@ -67,53 +67,7 @@ Insertar algunos datos en la base de datos
 
 ## Rutas disponibles
 
-1. **Obtener todos los productos**
-    - **Método**: `GET`
-    - **URL**: `/productos`
-    - **Body**: No requiere.
+1. **Donde obtener los endpoints**
+    - **URL**: `http://localhost:8080/swagger-ui/index.html#/`
+    - **Repositorio**: Archivo adjunto en la entrega.
    
-
-2. **Obtener un producto por ID**
-    - **Método**: `GET`
-    - **URL**: `/productos/{id}`
-    - **Body**: No requiere.
-    - **Descripción**: Reemplaza `{id}` con el ID del producto que deseas consultar.
-
-
-3. **Crear un nuevo producto**
-    - **Método**: `POST`
-    - **URL**: `/productos`
-    - **Body** (JSON):
-      ```json
-      {
-          "nombre": "Nombre del producto",
-          "precio": 0.00,
-          "categoria": {
-              "id": 1
-          }
-      }
-      ```
-    - **Descripción**: Proporciona los datos del nuevo producto, incluyendo el nombre, precio y la categoría asociada.
-
-
-4. **Actualizar un producto existente**
-    - **Método**: `PUT`
-    - **URL**: `/productos/{id}`
-    - **Body** (JSON):
-      ```json
-      {
-          "nombre": "Nuevo nombre del producto",
-          "precio": 0.00,
-          "categoria": {
-              "id": 1
-          }
-      }
-      ```
-    - **Descripción**: Reemplaza `{id}` con el ID del producto que deseas actualizar y proporciona los datos a modificar.
-
-
-5. **Eliminar un producto por ID**
-    - **Método**: `DELETE`
-    - **URL**: `/productos/{id}`
-    - **Body**: No requiere.
-    - **Descripción**: Reemplaza `{id}` con el ID del producto que deseas eliminar.
