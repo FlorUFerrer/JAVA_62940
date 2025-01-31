@@ -54,11 +54,11 @@ Insertar algunos datos en la base de datos
      ```bash
     INSERT INTO categorias (nombre) VALUES ('Pizza'), ('Empanada');
     
-    INSERT INTO productos (nombre, precio, categoria_id) VALUES 
-    ('Pizza Napolitana', 800.00, 1),
-    ('Pizza Cuatro Quesos', 900.00, 1),
-    ('Empanada de Carne', 200.00, 2),
-    ('Empanada de Jamón y Queso', 250.00, 2);
+    INSERT INTO productos (nombre, precio, categoria_id, stock) VALUES 
+    ('Pizza Napolitana', 800.00, 1, 50),
+    ('Pizza Cuatro Quesos', 900.00, 1, 20),
+    ('Empanada de Carne', 200.00, 2, 36),
+    ('Empanada de Jamón y Queso', 250.00, 2, 48);
 
     INSERT INTO usuarios (username, password, email, created_at)
     VALUES
