@@ -51,7 +51,7 @@ Crea la base de datos local tienda_coder. Esto puede hacerse mediante una herram
 ## Base de datos
 Insertar algunos datos en la base de datos
 
-     ```bash
+
     INSERT INTO categorias (nombre) VALUES ('Pizza'), ('Empanada');
     
     INSERT INTO productos (nombre, precio, categoria_id, stock) VALUES 
